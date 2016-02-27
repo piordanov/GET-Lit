@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
     <sprite>sprites\wallsprite0</sprite>
+    <sprite>sprites\buildingsprite</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -20,8 +21,10 @@
     <shader type="GLSLES">shaders\shader2.shader</shader>
   </shaders>
   <objects name="objects">
+    <object>objects\BuildingGenerator</object>
     <object>objects\objectwall</object>
     <object>objects\lit</object>
+    <object>objects\building</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
