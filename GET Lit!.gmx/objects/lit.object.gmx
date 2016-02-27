@@ -30,6 +30,8 @@ hsp = 0;
 vsp = 0;
 jumpspeed = 10;
 movespeed = 8;
+
+shader_set(shader2);
 </string>
           </argument>
         </arguments>
