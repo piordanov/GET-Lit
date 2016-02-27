@@ -9,6 +9,8 @@
     <sprite>sprites\sprite0</sprite>
     <sprite>sprites\wallsprite0</sprite>
     <sprite>sprites\buildingsprite</sprite>
+    <sprite>sprites\bomb</sprite>
+    <sprite>sprites\crab</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -22,9 +24,10 @@
   </shaders>
   <objects name="objects">
     <object>objects\BuildingGenerator</object>
-    <object>objects\objectwall</object>
+    <object>objects\BombGenerator</object>
     <object>objects\lit</object>
     <object>objects\building</object>
+    <object>objects\obj_bomb</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
