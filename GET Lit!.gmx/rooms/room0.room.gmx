@@ -58,6 +58,7 @@
     <instance objName="building" x="736" y="384" name="inst_35454F7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="building" x="1024" y="352" name="inst_45AC4714" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BombGenerator" x="33" y="0" name="inst_4AB62397" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="fov_object" x="0" y="0" name="inst_9841D4E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
