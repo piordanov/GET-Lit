@@ -29,6 +29,7 @@
 mouseYPct = 0;
 reach = 0.75;
 depth = -10;
+expand_timer = 0;
 
 </string>
           </argument>
@@ -56,6 +57,12 @@ depth = -10;
 mouseYPct = lit.y / sprite_height;
 reach -= 0.001;
 reach = max(0.1, reach);
+
+if (expand_timer &gt; 0)
+{
+    reach += ((0.75 - reach) * 0.2)
+    expand_timer -= 1;
+}
 
 </string>
           </argument>

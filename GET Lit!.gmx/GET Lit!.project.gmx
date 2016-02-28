@@ -25,6 +25,7 @@
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\fov_shader.shader</shader>
+    <shader type="GLSLES">shaders\recover_shader.shader</shader>
   </shaders>
   <fonts name="fonts">
     <font>fonts\f_score</font>
