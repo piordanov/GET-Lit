@@ -28,6 +28,8 @@
     <object>objects\lit</object>
     <object>objects\building</object>
     <object>objects\obj_bomb</object>
+    <object>objects\obj_StaticParent</object>
+    <object>objects\obj_DynamicParent</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
