@@ -54,7 +54,7 @@ depth = -10;
             <kind>1</kind>
             <string>mouseXPct = lit.x / sprite_width;
 mouseYPct = lit.y / sprite_height;
-reach -= 0.0001;
+reach -= 0.001;
 reach = max(0.1, reach);
 
 </string>

@@ -12,6 +12,9 @@
     <sprite>sprites\bomb</sprite>
     <sprite>sprites\crab</sprite>
     <sprite>sprites\fov_sprite</sprite>
+    <sprite>sprites\recover</sprite>
+    <sprite>sprites\GameOver</sprite>
+    <sprite>sprites\sprite9</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -23,6 +26,9 @@
   <shaders name="shaders">
     <shader type="GLSLES">shaders\fov_shader.shader</shader>
   </shaders>
+  <fonts name="fonts">
+    <font>fonts\f_score</font>
+  </fonts>
   <objects name="objects">
     <object>objects\BuildingGenerator</object>
     <object>objects\BombGenerator</object>
@@ -32,6 +38,11 @@
     <object>objects\obj_StaticParent</object>
     <object>objects\obj_DynamicParent</object>
     <object>objects\fov_object</object>
+    <object>objects\obj_recover</object>
+    <object>objects\RecoverGenerator</object>
+    <object>objects\obj_score</object>
+    <object>objects\obj_gameover</object>
+    <object>objects\tryagain</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
