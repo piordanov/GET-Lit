@@ -51,6 +51,7 @@ alarm[1] = timer
             <kind>1</kind>
             <string>instance_create(300 + random(600),0, obj_bomb);
 alarm[1] = timer + random(5)
+
 </string>
           </argument>
         </arguments>

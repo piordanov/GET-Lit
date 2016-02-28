@@ -30,6 +30,7 @@ mouseYPct = 0;
 reach = 0.75;
 depth = -10;
 expand_timer = 0;
+stop_fov = 0
 
 </string>
           </argument>
@@ -53,15 +54,18 @@ expand_timer = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>mouseXPct = lit.x / sprite_width;
-mouseYPct = lit.y / sprite_height;
-reach -= 0.001;
-reach = max(0.1, reach);
-
-if (expand_timer &gt; 0)
+            <string>if(!stop_fov)
 {
-    reach += ((0.75 - reach) * 0.2)
-    expand_timer -= 1;
+    mouseXPct = lit.x / sprite_width;
+    mouseYPct = lit.y / sprite_height;
+    reach -= 0.001;
+    reach = max(0.1, reach);
+
+    if (expand_timer &gt; 0)
+    {
+        reach += ((0.75 - reach) * 0.2)
+        expand_timer -= 1;
+    }
 }
 
 </string>

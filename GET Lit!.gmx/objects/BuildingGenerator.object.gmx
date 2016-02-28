@@ -53,6 +53,7 @@ alarm[0] = alarmspeed
             <kind>1</kind>
             <string>instance_create(950 + random(100),400 + random(100), building);
 alarm[0] = alarmspeed + random(30)
+alarmspeed += 10
 /*rand = round(random(2))
 
 switch (rand)
